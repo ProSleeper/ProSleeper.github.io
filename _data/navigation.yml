@@ -4,8 +4,8 @@ main:
     url: /index.html
   - title: "Category"
     url: /categories/
-  # - title: "Projects"
-  #   url: /categories/projects/
+  - title: "Projects"
+    url: /projects-archive/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
