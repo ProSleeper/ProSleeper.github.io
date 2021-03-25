@@ -1,8 +1,8 @@
 ---
 title: "Projects"
 layout: tag
-permalink: /Projects/
+permalink: /projects/
 author_profile: true
-taxonomy: Projects
+taxonomy: projects
 sidebar_main: true
 ---
