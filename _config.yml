@@ -20,7 +20,7 @@ title                    : "ASUD Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "ASUD"
-description              : "ASUD's Programming learning."
+description              : "ASUD's Programming learned."
 url                      : "ProSleeper.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
