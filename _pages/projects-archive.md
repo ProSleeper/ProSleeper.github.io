@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-layout: tag
+layout: categories
 permalink: /projects/
 author_profile: true
 taxonomy: projects
