@@ -4,12 +4,12 @@ layout: archive
 
 {{ content }}
 
-{% assign categories_max = 0 %}
+<!-- {% assign categories_max = 0 %}
 {% for category in site.categories %}
   {% if category[1].size > categories_max %}
     {% assign categories_max = category[1].size %}
   {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 <ul class="taxonomy__index">
   {% for i in (1..categories_max) reversed %}
