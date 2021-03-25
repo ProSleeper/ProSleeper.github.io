@@ -1,7 +1,7 @@
 ---
 title: "Projects"
-layout: category
-permalink: /categories/projects/
+layout: categories
+permalink: /projects/
 author_profile: true
 taxonomy: projects
 sidebar_main: true
