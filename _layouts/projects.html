@@ -1,9 +1,5 @@
 ---
 layout: archive
-projects:
-  - name: Nonogram_Peko
-  - name: PushPush
-  - name: TSTS
 ---
 
 {{ content }}
@@ -40,8 +36,8 @@ projects:
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..categories_max) reversed %}
   {% for category in site.categories %}
-    {% for item in page.projects %}
-      {% if category[0] == item[1] %}
+    {% for item in projectArray %}
+      {% if category[0] == item %}
         {% if category[1].size == i %}
           <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
             <h2 class="archive__subtitle">{{ category[0] }}</h2>
