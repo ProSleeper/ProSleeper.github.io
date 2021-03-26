@@ -13,7 +13,7 @@ date: 2021-03-26
 last_modified_at: 2021-03-26
 ---
 
-```{% raw %} 
+```liquid
 layout: archive
 
 {{ content }}
