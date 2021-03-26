@@ -43,9 +43,9 @@ html {
 
 .language-plaintext {
   font-family: $monospace;
+  color: mix(#FFBF00,$primary-color, 40%);
   font-size: $type-size-5;
   background: #4D5357;
-  $text-color: #FFBF00;
 }
 
 // background: #4D5357;
