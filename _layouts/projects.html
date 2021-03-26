@@ -9,27 +9,31 @@ layout: archive
 <!-- 이 코드가 필요한 이유는 sort를 하기 위함. 제일 post가 많은 것부터 내림차순으로 차례대로 -->
 {% assign categories_max = 0 %}
 {% for category in site.categories %}
-  {% if category[0]  == nonostring or category[0]  == "PushPush" or category[0]  == "TSTS"%}
-    {% if category[1].size > categories_max %}
-      {% assign categories_max = category[1].size %}
+  {% for item in projectArray %}
+    {% if category[0] == item %}
+      {% if category[1].size > categories_max %}
+        {% assign categories_max = category[1].size %}
+      {% endif %}
     {% endif %}
-  {% endif %}
+  {% endfor %}
 {% endfor %}
 
 <!-- 카테고리 개별의 post의 개수를 표시해주는 부분 -->
 <ul class="taxonomy__index">
   {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}
-    {% if category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
-        {% if category[1].size == i %}
-          <li>
-            <a href="#{{ category[0] | slugify }}">
-              <!-- <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span> -->
-              <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
-            </a>
-          </li>
+      {% for item in projectArray %}
+        {% if category[0] == item %}
+          {% if category[1].size == i %}
+            <li>
+              <a href="#{{ category[0] | slugify }}">
+                <!-- <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span> -->
+                <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+              </a>
+            </li>
+          {% endif %}
         {% endif %}
-      {% endif %}
+      {% endfor %}
     {% endfor %}
   {% endfor %}
 </ul>

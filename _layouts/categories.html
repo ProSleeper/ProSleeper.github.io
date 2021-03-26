@@ -4,7 +4,9 @@ layout: archive
 
 {{ content }}
 
-
+{% assign Nonogram_Peko = 'Nonogram_Peko' %}
+{% assign PushPush = 'PushPush' %}
+{% assign TSTS = 'TSTS' %}
 
 {% assign projectArray = "Nonogram_Peko,PushPush,TSTS" | split: ',' %}  <!-- 지금은 여기하고 categories.html 에 따로 배열을 뒀지만 나중에는 이 방법 말고 projects폴더를 읽어 오는 방식으로 바꿔보자.-->
 
@@ -12,7 +14,7 @@ layout: archive
 <!-- 이 코드가 필요한 이유는 sort를 하기 위함. 제일 post가 많은 것부터 내림차순으로 차례대로 -->
 {% assign categories_max = 0 %}
 {% for category in site.categories %}
-  {% if category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
+  {% if category[0]  == Nonogram_Peko or category[0]  == PushPush or category[0]  == TSTS %}
     {%continue%}
   {% else %}
     {% if category[1].size > categories_max %}
@@ -25,7 +27,7 @@ layout: archive
 <ul class="taxonomy__index">
   {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}
-    {% if category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
+    {% if category[0]  == Nonogram_Peko or category[0]  == PushPush or category[0]  == TSTS %}
       {%continue%}
     {% else %}
         {% if category[1].size == i %}
@@ -44,7 +46,7 @@ layout: archive
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..categories_max) reversed %}
   {% for category in site.categories %}
-    {% if category[0]  == nonostring or category[0]  == "PushPush" or category[0]  == "TSTS"%}
+  {% if category[0]  == Nonogram_Peko or category[0]  == PushPush or category[0]  == TSTS %}
       {%continue%}
     {% else %}
       {% if category[1].size == i %}
