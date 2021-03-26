@@ -71,6 +71,7 @@ body {
 .page__title {
   margin-top: 0;
   line-height: 1;
+  color: mix(#fff, $primary-color, 40%);//post 제목 색 설정
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -83,6 +84,8 @@ body {
 }
 
 .page__content {
+  margin-top: 20px;
+
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
