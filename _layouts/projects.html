@@ -9,7 +9,7 @@ layout: archive
 <!-- 이 코드가 필요한 이유는 sort를 하기 위함. 제일 post가 많은 것부터 내림차순으로 차례대로 -->
 {% assign categories_max = 0 %}
 {% for category in site.categories %}
-  {% if category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
+  {% if category[0]  == nonostring or category[0]  == "PushPush" or category[0]  == "TSTS"%}
     {% if category[1].size > categories_max %}
       {% assign categories_max = category[1].size %}
     {% endif %}
