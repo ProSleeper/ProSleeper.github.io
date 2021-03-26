@@ -20,7 +20,6 @@ layout: archive
   {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}
     {% if category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
-      {% continue %}
         {% if category[1].size == i %}
           <li>
             <a href="#{{ category[0] | slugify }}">
@@ -37,7 +36,6 @@ layout: archive
 {% for i in (1..categories_max) reversed %}
   {% for category in site.categories %}
     {% if category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
-      {% continue %}
       {% if category[1].size == i %}
         <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
           <h2 class="archive__subtitle">{{ category[0] }}</h2>
