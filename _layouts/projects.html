@@ -28,7 +28,7 @@ projects:
           <li>
             <a href="#{{ category[0] | slugify }}">
               <!-- <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span> -->
-              <strong>{{ page.projects[0].name }}</strong> <span class="taxonomy__count">{{ 3 }}</span>
+              <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ 3 }}</span>
             </a>
           </li>
         {% endif %}
@@ -41,7 +41,7 @@ projects:
 {% for i in (1..categories_max) reversed %}
   {% for category in site.categories %}
     {% for item in page.projects %}
-      {% if category[0] == item %}
+      {% if category[0] == item.name %}
         {% if category[1].size == i %}
           <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
             <h2 class="archive__subtitle">{{ category[0] }}</h2>
