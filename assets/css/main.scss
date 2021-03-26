@@ -21,10 +21,10 @@ $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 
 // https://github.com/mmistakes/minimal-mistakes/issues/1219
 html {
-  font-size: 5px; // change to whatever
+  font-size: 12px; // change to whatever
   
   @include breakpoint($medium) {
-    font-size: 5px; // change to whatever
+    font-size: 14px; // change to whatever
   }
 
   @include breakpoint($large) {
