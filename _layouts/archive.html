@@ -2,12 +2,8 @@
 layout: default
 ---
 
-projects:
 
-{% assign projectArray = "" | split: ',' %}
-{% assign projectArray = projectArray | push: 'Nonogram_Peko' %}
-{% assign projectArray = projectArray | push: 'PushPush' %}
-{% assign projectArray = projectArray | push: 'TSTS' %}
+{% assign projectArray = "Nonogram_Peko,PushPush,TSTS" | split: ',' %}
 {% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
   {% include page__hero.html %}
 {% elsif page.header.video.id and page.header.video.provider %}
