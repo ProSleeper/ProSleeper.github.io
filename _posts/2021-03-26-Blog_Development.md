@@ -64,7 +64,6 @@ layout: archive
 int main()
 {
   cout << endl;
-  //cout <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
     return 0;
 }
 ```
