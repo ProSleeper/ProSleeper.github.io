@@ -8,19 +8,18 @@ layout: archive
 <!-- 이 코드가 필요한 이유는 sort를 하기 위함. 제일 post가 많은 것부터 내림차순으로 차례대로 -->
 {% assign categories_max = 0 %}
 {% for category in site.categories %}
-  {% unless category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
-    {% continue %}
+  {% if category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
     {% if category[1].size > categories_max %}
       {% assign categories_max = category[1].size %}
     {% endif %}
-  {% endunless %}
+  {% endif %}
 {% endfor %}
 
 <!-- 카테고리 개별의 post의 개수를 표시해주는 부분 -->
 <ul class="taxonomy__index">
   {% for i in (1..categories_max) reversed %}
     {% for category in site.categories %}
-    {% unless category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
+    {% if category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
       {% continue %}
         {% if category[1].size == i %}
           <li>
@@ -29,7 +28,7 @@ layout: archive
             </a>
           </li>
         {% endif %}
-      {% endunless %}
+      {% endif %}
     {% endfor %}
   {% endfor %}
 </ul>
@@ -37,7 +36,7 @@ layout: archive
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..categories_max) reversed %}
   {% for category in site.categories %}
-    {% unless category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
+    {% if category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
       {% continue %}
       {% if category[1].size == i %}
         <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
@@ -50,6 +49,6 @@ layout: archive
           <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
         </section>
       {% endif %}
-    {% endunless %}
+    {% endif %}
   {% endfor %}
 {% endfor %}
