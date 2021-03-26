@@ -13,8 +13,8 @@ date: 2021-03-26
 last_modified_at: 2021-03-26
 ---
 
-{ % raw % } 
-<!-- layout: archive
+```{% raw %} 
+layout: archive
 
 {{ content }}
 
@@ -53,9 +53,9 @@ last_modified_at: 2021-03-26
       </section>
 ​    {% endif %}
   {% endfor %}
-{% endfor %} -->
+{% endfor %}
 
-{ % endraw % }
+```{% endraw %}
 
 
 <br>
