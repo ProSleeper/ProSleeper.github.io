@@ -14,8 +14,7 @@ last_modified_at: 2021-03-26
 ---
 
 { % raw % } 
-
-layout: archive
+<!-- layout: archive
 
 {{ content }}
 
@@ -54,7 +53,7 @@ layout: archive
       </section>
 ​    {% endif %}
   {% endfor %}
-{% endfor %}
+{% endfor %} -->
 
 { % endraw % }
 
