@@ -7,15 +7,16 @@ layout: archive
 <!-- 이 코드는 site.categories변수로 모든 카테고리를 반복해서 categories_max변수에 카테고리중에서 가장 post가 많이 작성된 카테고리의 최대값이 저장됨-->
 <!-- 이 코드가 필요한 이유는 sort를 하기 위함. 제일 post가 많은 것부터 내림차순으로 차례대로 -->
 {% assign categories_max = 0 %}
-{% for category in site.categories %}
+{% for category in site.projects %}
   {% if category[1].size > categories_max %}
     {% assign categories_max = category[1].size %}
   {% endif %}
 {% endfor %}
 
+<!-- 카테고리 개별의 post의 개수를 표시해주는 부분 -->
 <ul class="taxonomy__index">
   {% for i in (1..categories_max) reversed %}
-    {% for category in site.categories %}
+    {% for category in site.projects %}
       {% if category[1].size == i %}
         <li>
           <a href="#{{ category[0] | slugify }}">
@@ -29,7 +30,7 @@ layout: archive
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..categories_max) reversed %}
-  {% for category in site.categories %}
+  {% for category in site.projects %}
     {% if category[1].size == i %}
       <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
         <h2 class="archive__subtitle">{{ category[0] }}</h2>
