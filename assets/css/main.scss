@@ -11,6 +11,12 @@ $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 @import "minimal-mistakes/skins/dark"; // skin
 @import "minimal-mistakes";
 
+
+@font-face {
+  font-family: "Gidole-Regular";
+    src: url( '../_assets/fonts/Gidole-Regular.ttf') format( 'truetype');
+}
+
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
 
 // https://github.com/mmistakes/minimal-mistakes/issues/1219
