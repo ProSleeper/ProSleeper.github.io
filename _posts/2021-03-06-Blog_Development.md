@@ -13,8 +13,11 @@ date: 2021-03-26
 last_modified_at: 2021-03-26
 ---
 
-```Liquid
 ---
+```Liquid
+
+```
+
 layout: archive
 ---
 
@@ -40,7 +43,6 @@ layout: archive
     {% endfor %}
   {% endfor %}
 </ul>
-
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..categories_max) reversed %}
   {% for category in site.categories %}
@@ -54,13 +56,13 @@ layout: archive
         </div>
         <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
       </section>
-    {% endif %}
+​    {% endif %}
   {% endfor %}
 {% endfor %}
 
 ```
 
-
+```
 
 
 
