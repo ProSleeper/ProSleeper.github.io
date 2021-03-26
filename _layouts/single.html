@@ -34,7 +34,7 @@ layout: default
 
       <section class="page__content" itemprop="text">
         {% if page.toc %}
-          <!-- <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}"> -->
+          <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">  <!-- 이 부분은 toc을 옆으로 빼서-->
 
             <nav class="toc"> <!-- toc은 메인 글 옆에 제목1, 제목2 이런식으로 바로바로 목차를 보여주고 이동 하게 해주는 부분-->
               <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
