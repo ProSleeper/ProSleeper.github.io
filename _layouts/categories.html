@@ -29,7 +29,7 @@ layout: archive
           <li>
             <a href="#{{ category[0] | slugify }}">
               <!-- <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span> -->
-              <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ i }}</span>
+              <strong>{{ category[0] }}</strong> <span class="taxonomy__count">{{ 77 }}</span>
             </a>
           </li>
         {% endif %}
@@ -41,11 +41,9 @@ layout: archive
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 {% for i in (1..categories_max) reversed %}
   {% for category in site.categories %}
-    {% for item in projectArray %}
-      {% if category[0] == item %}
-        #proee
-        {% break %}
-      {% endif %}
+    {% if category[0]  == "Nonogram_Peko" or category[0]  == "PushPush" or category[0]  == "TSTS"%}
+      {%continue%}
+    {% else %}
       {% if category[1].size == i %}
         <section id="{{ category[0] | slugify | downcase }}" class="taxonomy__section">
           <h2 class="archive__subtitle">{{ category[0] }}</h2>
@@ -56,8 +54,9 @@ layout: archive
           </div>
           <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
         </section>
-        {% break %}
       {% endif %}
-    {% endfor %}
+    {% endif %}
   {% endfor %}
 {% endfor %}
+
+<!-- for문이 내 생각대로 구현이 안된다. 문법이 뭐가 다른걸까 으아아아아 일단 차선책으로 구현. -->
