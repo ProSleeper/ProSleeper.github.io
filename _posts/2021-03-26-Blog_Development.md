@@ -13,7 +13,8 @@ date: 2021-03-26
 last_modified_at: 2021-03-26
 ---
 
-````cpp
+
+````
 layout: archive
 
 {{ content }}
@@ -57,6 +58,14 @@ layout: archive
 
 ```{% endraw %}
 
+
+```cpp
+int main()
+{
+  cout << endl;
+    return 0;
+}
+```
 
 <br>
 
