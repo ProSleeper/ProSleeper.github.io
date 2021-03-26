@@ -1,5 +1,5 @@
 ---
-title:  "Blog" 
+title:  "Blog First" 
 
 categories:
   - Blog Development
@@ -12,7 +12,7 @@ toc_sticky: true
 date: 2021-03-26
 last_modified_at: 2021-03-26
 ---
-
+<br>
 
 ````
 layout: archive
@@ -55,8 +55,7 @@ layout: archive
 ​    {% endif %}
   {% endfor %}
 {% endfor %}
-
-```{% endraw %}
+```
 
 
 ```cpp
