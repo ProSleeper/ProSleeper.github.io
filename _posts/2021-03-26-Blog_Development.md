@@ -14,7 +14,7 @@ last_modified_at: 2021-03-26
 ---
 <br>
 
-```
+```Liquid
 layout: archive
 
 {{ content }}
