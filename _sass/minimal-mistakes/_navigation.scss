@@ -184,8 +184,6 @@
     margin: 0 1rem;
     color: $masthead-link-color;
     text-decoration: none;
-    -webkit-transition: none;
-    transition: none;
 
     &:hover {
       color: $masthead-link-color-hover;
@@ -199,11 +197,6 @@
     &.site-title {
       margin-left: 0;
     }
-  }
-  
-  img{
-    -webkit-transition: none;
-    transition: none;
   }
 
   &__toggle {
@@ -440,9 +433,17 @@
 .nav__list .nav__items {
   margin: 0;
   font-size: 1.25rem;
+  font-family: $sans-serif;
 
   a {
     color: inherit;
+    font-size: $type-size-4;
+    font-family: $sans-serif;
+    color: mix(#fff,$primary-color,80%);
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 
   .active {
@@ -492,10 +493,9 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
-  font-weight: bold;
-  text-transform: uppercase;
+  font-size: $type-size-3;
+  font-family: $sans-serif;
+  color: mix(#fff,$primary-color,35%);
   border-bottom: 1px solid $border-color;
 }
 
@@ -514,8 +514,8 @@
 
   .nav__title {
     color: #fff;
-    font-size: $type-size-6;
-    background: $primary-color;
+    font-size: $type-size-5;
+    background: mix(#fff,$primary-color,30%);
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
   }
