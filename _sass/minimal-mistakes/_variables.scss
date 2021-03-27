@@ -140,12 +140,12 @@ $base0f: #ff5370 !default;
    Breakpoints
    ========================================================================== */
 
-   //이 부분이 기기의 화면 크기에 따라서 post의 크기를 조절해서 보여줌.
+   //이 부분이 toc을 지정하는 부분에서 classes:wide로 주었을때, 기기의 화면 크기에 따라서 post의 크기를 조절해서 보여줌.
 $small: 600px !default;
 $medium: 768px !default;
-$medium-wide: 1400px !default;
-$large: 1400px !default;
-$x-large: 1280px !default;
+$medium-wide: 900px !default;
+$large: 1024px !default;
+$x-large: 1400px !default;
 $max-width: $x-large !default;
 
 /*
