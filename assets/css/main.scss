@@ -44,9 +44,9 @@ html {
 .language-plaintext {
   font-family: $monospace;
   // color: mix(#FFBF00,$primary-color, 40%);
-  color: #FFBF00;
+  color: #FFBF00; //한줄 코드 text색
   font-size: $type-size-5;
-  background: #4D5357;
+  background: #4D5357;  //한줄 코드 background색
 }
 
 // background: #4D5357;
