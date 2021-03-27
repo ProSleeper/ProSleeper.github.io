@@ -1,25 +1,25 @@
-// --- 
-// # Only the main Sass file needs front matter (the dashes are enough) 
-// --- 
+--- 
+# Only the main Sass file needs front matter (the dashes are enough) 
+--- 
 
-// // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
-// $sans-serif: 'Noto Sans KR';
-// $monospace: 'Ubuntu Mono';
-// $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
+// https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
+$sans-serif: 'Noto Sans KR';
+$monospace: 'Ubuntu Mono';
+$type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 
-// @charset "utf-8";
-// @import "minimal-mistakes/skins/dark"; // skin
-// @import "minimal-mistakes";
+@charset "utf-8";
+@import "minimal-mistakes/skins/dark"; // skin
+@import "minimal-mistakes";
 
 
-// @font-face {
-//   font-family: "Gidole-Regular";
-//     src: url( '../_assets/fonts/Gidole-Regular.ttf') format( 'truetype');
-// }
+@font-face {
+  font-family: "Gidole-Regular";
+    src: url( '../_assets/fonts/Gidole-Regular.ttf') format( 'truetype');
+}
 
-// @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
 
-// // https://github.com/mmistakes/minimal-mistakes/issues/1219
+// https://github.com/mmistakes/minimal-mistakes/issues/1219
 // html {
 //   font-size: 12px; // change to whatever
   
@@ -49,4 +49,4 @@
 //   background: #4D5357;  //한줄 코드 background색
 // }
 
-// // background: #4D5357;
+// background: #4D5357;
