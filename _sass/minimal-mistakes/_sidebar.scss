@@ -32,7 +32,7 @@
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      height: calc(100vh - #{$nav-height} - 2em);
+      max-height: calc(100vh - #{$nav-height} - 2em);
     }
   }
 
@@ -98,13 +98,6 @@
   }
 }
 
-.sidebar__top {
-  position: fixed;
-  bottom: 1.5em;
-  right: 2em;
-  z-index: 10;
-}
-
 .splash .sidebar__right {
   @include breakpoint($large) {
     position: relative;
@@ -134,11 +127,12 @@
   }
 
   img {
-    max-width: 240px;
-    border-radius: 10%;
+    max-width: 110px;
+    border-radius: 50%;
 
     @include breakpoint($large) {
       padding: 5px;
+      border: 1px solid $border-color;
     }
   }
 }
@@ -173,13 +167,11 @@
 }
 .sidebar .author__name {
   font-family: $sans-serif;
-  font-size: $type-size-3;
-  color:#FFF;
+  font-size: $type-size-5;
 }
 
 .author__bio {
   margin: 0;
-  font-size: $type-size-5;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -193,7 +185,6 @@
   vertical-align: middle;
   font-family: $sans-serif;
   z-index: 20;
-  position: relative;
   cursor: pointer;
 
   li:last-child {
