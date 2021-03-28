@@ -13,14 +13,14 @@ $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 @import "minimal-mistakes";
 
 
-@font-face {
-  font-family: "Gidole-Regular";
-    src: url( '../_assets/fonts/Gidole-Regular.ttf') format( 'truetype');
-}
+// @font-face {
+//   font-family: "Gidole-Regular";
+//     src: url( '../_assets/fonts/Gidole-Regular.ttf') format( 'truetype');
+// }
 
 // @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
 
-@import url(‘https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap&subset=korean’); 
+@import url(https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap&subset=korean); 
 
 
 //https://github.com/mmistakes/minimal-mistakes/issues/1219
@@ -48,7 +48,9 @@ html {
 .language-plaintext {
   font-family: $monospace;
   // color: mix(#FFBF00,$primary-color, 40%);
-  color: #FFBF00; //한줄 코드 text색
+  //color: #FFBF00; //한줄 코드 text색
+  color: #ff0000; //한줄 코드 text색
+
   font-size: $type-size-5;
   background: #4D5357;  //한줄 코드 background색
 }
