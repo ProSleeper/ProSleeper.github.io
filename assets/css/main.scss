@@ -3,7 +3,8 @@
 --- 
 
 // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
-$sans-serif: 'Noto Sans KR';
+// $sans-serif: 'Noto Sans KR';
+$sans-serif: 'Nanum Gothic Coding';
 $monospace: 'Ubuntu Mono';
 $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 
@@ -17,7 +18,10 @@ $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
     src: url( '../_assets/fonts/Gidole-Regular.ttf') format( 'truetype');
 }
 
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
+// @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
+
+@import url(‘https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap&subset=korean’); 
+
 
 //https://github.com/mmistakes/minimal-mistakes/issues/1219
 html {
