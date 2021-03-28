@@ -24,7 +24,7 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a> <!--이 부분이 실제 포스트에서 써지는 부분-->
       {% endif %}
       {% if post.date %}
-      <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%Y.%m.%d" }}</p>
+      <span class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%Y.%m.%d" }}</span>
     {% endif %}
     </h2>
    <!-- {% include page__meta.html type=include.type %} -->
