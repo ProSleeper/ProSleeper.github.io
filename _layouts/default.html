@@ -41,7 +41,11 @@ classes: wide
       <a href="#site-nav"> <i class="fa fa-chevron-circle-up fa-4x"></i></a>
     </aside> -->
     <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
-    <script>addBackToTop()</script>
+    <script>addBackToTop({
+      backgroundColor: '#ffda0c',
+      innerHTML: '<svg viewBox="0 0 24 24"><path d="M4 12l1.41 1.41L11 7.83V20h2V7.83l5.58 5.59L20 12l-8-8-8 8z"/></svg>',
+      textColor: '#96071f'
+    })</script>
 
 
     {% include scripts.html %}
