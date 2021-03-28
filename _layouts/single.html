@@ -75,7 +75,7 @@ layout: default
     <div class="page__related">
       <h4 class="page__related-title">{{  "You upupupupupup" }}</h4>
       <div class="grid__wrapper">
-        {% for post in site.related_posts limit:4 %}
+        {% for post in site.related_posts limit:8 %}
           {% include archive-single.html type="wide" %}
         {% endfor %}
       </div>
