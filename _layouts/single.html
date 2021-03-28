@@ -76,7 +76,7 @@ layout: default
       <h4 class="page__related-title">{{  "You upupupupupup" }}</h4>
       <div class="grid__wrapper">
         {% for post in site.related_posts limit:8 %}
-          {% include archive-single.html type="grid" %}  <!-- include는 해당 파일을 포함시키는 거고, type은 그리는 표현방식 grid는 사각형으로 나열하는 느낌이고 list도 있음-->
+          {% include archive-single.html type="list" %}  <!-- include는 해당 파일을 포함시키는 거고, type은 그리는 표현방식 grid는 사각형으로 나열하는 느낌이고 list도 있음-->
         {% endfor %}
       </div>
     </div>
@@ -89,7 +89,7 @@ layout: default
           {% if post.id == page.id %}
             {% continue %}
           {% endif %}
-          {% include archive-single.html type="grid" %}
+          {% include archive-single.html type="list" %}
         {% endfor %}
       </div>
     </div>
