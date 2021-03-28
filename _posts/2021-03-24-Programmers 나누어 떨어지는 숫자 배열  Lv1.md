@@ -120,7 +120,6 @@ vector<int> solution(vector<int> arr, int divisor) {
 
     return answer;
 }
-}
 ```
 
 결과. 
