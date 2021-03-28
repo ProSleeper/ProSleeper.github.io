@@ -198,10 +198,12 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
-  highlighter: rouge
+  highlighter: rouge  # 여기포함 아래 4줄이 코드블럭에서 linenumber가 나옴
   syntax_highlighter_opts:
       block:
           line_numbers: true
+
+  
 
 
 # Sass/SCSS
