@@ -21,7 +21,7 @@
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
-        <!-- <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a> -->
+        <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a> <!--이 부분이 실제 포스트에서 써지는 부분-->
       {% endif %}
     </h2>
    <!-- {% include page__meta.html type=include.type %} -->
