@@ -67,7 +67,7 @@
 
   .site-nav {
     margin-left: 0;
-
+    color: $muted-text-color;
     @include breakpoint($small) {
       float: right;
     }
