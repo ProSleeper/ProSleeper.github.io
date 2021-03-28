@@ -21,7 +21,11 @@ $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 // @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR|Ubuntu+Mono);
 
 //@import url(https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding&display=swap&subset=korean); 
-@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap);
+//@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap);
+
+@import url(https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap);
+
+
 
 //https://github.com/mmistakes/minimal-mistakes/issues/1219
 html {
