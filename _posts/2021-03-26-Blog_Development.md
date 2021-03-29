@@ -2,7 +2,7 @@
 title:  "[Github Pages] Blog First" 
 
 categories:
-  - Blog Development
+  - Blog Dev
 tags:
   - [Jekyll, Github Pages, Blog, Liquid]
 
