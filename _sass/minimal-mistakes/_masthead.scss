@@ -23,7 +23,9 @@
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    font-family: $sans-serif-narrow;
+    // font-family: $sans-serif-narrow;
+    font-family: 'Jeju Myeongjo', serif;
+    font-size: $type-size-1;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
