@@ -4,7 +4,7 @@
 
 // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
 // $sans-serif: 'Noto Sans KR';
-$sans-serif: 'Nanum Gothic';
+$sans-serif: 'Noto Serif KR', serif;
 $monospace: 'Ubuntu Mono';
 $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 
@@ -29,6 +29,18 @@ $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 @import url(https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Bungee&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Jua&family=Song+Myung&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap);
+
+@font-face {
+  font-family: 'SDSamliphopangche_Outline';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts-20-12@1.0/SDSamliphopangche_Outline.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+// font-family: 'Jua', sans-serif;
+// font-family: 'Song Myung', serif;
 
 
 //https://github.com/mmistakes/minimal-mistakes/issues/1219
