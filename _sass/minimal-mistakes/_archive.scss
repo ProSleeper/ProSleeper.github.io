@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .archive {
-  //margin-top: 1em;
+  margin-top: 1em;
   margin-bottom: 2em;
 
   @include breakpoint($large) {
@@ -33,6 +33,7 @@
 
 .archive__subtitle {
   //margin: 1.414em 0 0.5em;
+  margin: 0.8em 0 0;
   padding-bottom: 0.5em;
   font-size: $type-size-3;//home화면의 Recent Posts의 폰트 크기
   color: $rss-color;
@@ -44,10 +45,10 @@
 }
 
 .archive__item-title {
-  //margin-bottom: 0.25em;
+  margin-bottom: 0.9em;
   font-family: $sans-serif-narrow;
   //padding-bottom: 0.5em;
-  line-height: initial;
+  line-height: 1.5;
   overflow: hidden;
   text-overflow: ellipsis;
 
@@ -103,8 +104,7 @@
   margin: 0 auto;
   padding: 2px 5px;
   color: #fff;
-  // font-family: $caption-font-family;
-  font-family: 'Jeju Myeongjo', serif;
+  font-family: $caption-font-family;
   font-size: $type-size-8;
   background: #000;
   text-align: right;
