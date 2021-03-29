@@ -45,12 +45,10 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  // font-family: $sans-serif-narrow;
-  font-family: 'Jeju Myeongjo', serif;
+  font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: 18px;
 
   a[rel="permalink"]::before {
     content: '';
