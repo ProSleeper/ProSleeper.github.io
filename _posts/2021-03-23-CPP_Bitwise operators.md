@@ -1,5 +1,5 @@
 ---
-title:  "[C++]C++ 비트연산자" 
+title:  "[C++] C++ 비트연산자" 
 
 categories:
   - C++

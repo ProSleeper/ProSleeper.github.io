@@ -24,7 +24,7 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a> <!--이 부분이 실제 포스트에서 써지는 부분-->
       {% endif %}
       {% if post.date %}
-      <span class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%Y.%m.%d" }}</span>
+      <!-- <span class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%Y.%m.%d" }}</span> -->
       <!-- 바로 위에 코드는 categories에서 post의 제목 옆에 날짜 보여주는 역할이고, 앞에 span으로 해서 줄 안바꿈으로 표현. p로 하면 줄 바꿈 -->
     {% endif %}
     </h2>
