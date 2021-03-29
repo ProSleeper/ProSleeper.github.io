@@ -1,5 +1,5 @@
 /* ==========================================================================
-   MASTHEAD 내꺼
+   MASTHEAD
    ========================================================================== */
 
 .masthead {
@@ -10,16 +10,12 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
-  // padding-bottom: 3.5em;
 
   &__inner-wrap {
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    // padding: 0.4em;
-    //padding-left: 20em;
-    padding-top: 10%;
-    padding-bottom: 5%;
+    padding: 0.4em;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -54,7 +50,6 @@
   -ms-flex-item-align: center;
   align-self: center;
   font-weight: bold;
-  // font-size: $type-size-1;
   // z-index: 20;
 }
 
@@ -92,6 +87,6 @@
 
   &--lg {
     padding-right: 2em;
-    font-weight: 1700;
+    font-weight: 700;
   }
 }
