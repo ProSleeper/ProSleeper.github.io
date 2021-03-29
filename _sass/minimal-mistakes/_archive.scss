@@ -4,7 +4,7 @@
 
 .archive {
   margin-top: 1em;
-  margin-bottom: 2em;
+  //margin-bottom: 2em;
 
   @include breakpoint($large) {
     float: right;
@@ -33,7 +33,7 @@
 
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
-  //padding-bottom: 0.5em;
+  padding-bottom: 0.5em;
   font-size: $type-size-3;//home화면의 Recent Posts의 폰트 크기
   color: $rss-color;
   border-bottom: 1px solid $border-color;
@@ -46,7 +46,7 @@
 .archive__item-title {
   //margin-bottom: 0.25em;
   font-family: $sans-serif-narrow;
-  padding-bottom: 0.5em;
+  //padding-bottom: 0.5em;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
