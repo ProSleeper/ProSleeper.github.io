@@ -4,7 +4,7 @@
 
 // https://mmistakes.github.io/minimal-mistakes/docs/stylesheets/#customizing
 // $sans-serif: 'Noto Sans KR';
-$sans-serif: 'Noto Serif KR', serif;
+$sans-serif: 'Nanum Gothic';
 $monospace: 'Ubuntu Mono';
 $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 
@@ -31,6 +31,8 @@ $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
 @import url(https://fonts.googleapis.com/css2?family=Bungee&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Jua&family=Song+Myung&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200&display=swap);
+
+// $sans-serif: 'Noto Serif KR', serif;
 
 @font-face {
   font-family: 'SDSamliphopangche_Outline';
