@@ -46,7 +46,7 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.9em;
+  //margin-bottom: 0.9em;
   //font-family: $sans-serif-narrow;
   font-family: 'Noto Serif KR', serif;
   //padding-bottom: 0.5em;
@@ -129,11 +129,15 @@
    ========================================================================== */
 
 .list__item {
-  .page__meta {
+  .page__meta { //날짜 표시에 대한 font-size와 margin
     margin: 0 0 4px;
     font-size: 0.6em;
   }
 }
+// margin: 20px 같은 표현은 상하좌우 모두 20px을 의미합니다
+// margin: 30px 10px은 상하 30px, 좌우 10px을 의미합니다.
+// margin: 30px 10px 20px 50px은 위 30px, 오른쪽 10px, 아래 20px, 왼쪽 50px을 의미합니다.
+// margin: 30px 10px 40px은 위 30px, 좌우 10px, 아래 40px을 의미합니다.
 
 /*
    Grid view
