@@ -13,9 +13,9 @@
         </a>
         <ul class="visible-links">
           {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
+            <!-- <li class="masthead__menu-item">
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
-            </li>
+            </li> -->
           {%- endfor -%}
         </ul>
         {% if site.search == true %}
@@ -26,10 +26,10 @@
           </svg>
         </button>
         {% endif %}
-        <!-- <button class="greedy-nav__toggle hidden" type="button">
+        <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
           <div class="navicon"></div>
-        </button> -->
+        </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
