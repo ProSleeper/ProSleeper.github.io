@@ -1,10 +1,10 @@
 ---
-title:  "Blog First" 
+title:  "[Github Pages] Blog First" 
 
 categories:
   - Blog Development
 tags:
-  - [Jekyll, Github Pages, Blog]
+  - [Jekyll, Github Pages, Blog, Liquid]
 
 toc: true
 toc_sticky: true

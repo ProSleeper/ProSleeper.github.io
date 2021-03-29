@@ -1,10 +1,10 @@
 ---
-title:  "C++ &(비트연산자) 설명 및 예시" 
+title:  "[C++] C++ &(비트연산자) 설명 및 예시" 
 
 categories:
-  - Cpp
+  - C++
 tags:
-  - [Cpp, Algorithm]
+  - [C++, Algorithm]
 
 toc: true
 toc_sticky: true

@@ -1,10 +1,10 @@
 ---
-title:  "Programmers 같은 숫자는 싫어 Lv1" 
+title:  "[C++] Programmers 같은 숫자는 싫어 Lv1" 
 
 categories:
-  - Cpp
+  - C++
 tags:
-  - [Cpp]
+  - [C++]
 
 toc: true
 toc_sticky: true

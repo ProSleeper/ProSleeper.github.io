@@ -1,10 +1,10 @@
 ---
-title:  "Programmers 나누어 떨어지는 숫자 배열 Lv1" 
+title:  "[C++] Programmers 나누어 떨어지는 숫자 배열 Lv1" 
 
 categories:
-  - Cpp
+  - C++
 tags:
-  - [Cpp]
+  - [C++]
 
 toc: true
 toc_sticky: true

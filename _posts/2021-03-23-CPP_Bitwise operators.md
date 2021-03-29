@@ -1,10 +1,10 @@
 ---
-title:  "C++ 비트연산자" 
+title:  "[C++]C++ 비트연산자" 
 
 categories:
-  - Cpp
+  - C++
 tags:
-  - [Cpp]
+  - [C++]
 
 toc: true
 toc_sticky: true

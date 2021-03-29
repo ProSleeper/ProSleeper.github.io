@@ -1,10 +1,10 @@
 ---
-title:  "Programmers 소수 찾기 Lv1" 
+title:  "[C++] Programmers 소수 찾기 Lv1" 
 
 categories:
-  - Cpp
+  - C++
 tags:
-  - [Cpp]
+  - [C++]
 
 toc: true
 toc_sticky: true
