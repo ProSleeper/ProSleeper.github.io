@@ -25,7 +25,7 @@
     justify-content: space-between;
     // font-family: $sans-serif-narrow;
     font-family: 'Jeju Myeongjo', serif;
-    font-size: $type-size-5;
+    font-size: $type-size-4;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
