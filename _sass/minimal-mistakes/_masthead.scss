@@ -9,7 +9,7 @@
   animation: $intro-transition;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
-  z-index: 30;
+  z-index: 20;
 
   &__inner-wrap {
     @include clearfix;
@@ -30,7 +30,7 @@
     }
 
     nav {
-      z-index: 30;
+      z-index: 10;
     }
 
     a {
@@ -73,7 +73,7 @@
   }
 
   ul {
-    margin: 0;
+    margin: 50;
     padding: 0;
     clear: both;
     list-style-type: none;
