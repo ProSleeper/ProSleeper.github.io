@@ -35,7 +35,7 @@
   //margin: 1.414em 0 0.5em;
   margin: 0.8em 0 0;
   padding-bottom: 0.5em;
-  font-size: $type-size-3;//home화면의 Recent Posts의 폰트 크기
+  font-size: $type-size-2;//home화면의 Recent Posts의 폰트 크기
   color: $rss-color;
   border-bottom: 1px solid $border-color;
   font-family: 'SDSamliphopangche_Outline';
@@ -53,6 +53,9 @@
   line-height: 1.5;
   overflow: hidden;
   text-overflow: ellipsis;
+  //font-size: x-large;
+  
+  
 
   a[rel="permalink"]::before {
     content: '';
