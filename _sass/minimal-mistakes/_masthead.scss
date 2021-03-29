@@ -14,13 +14,12 @@
 
   &__inner-wrap {
     @include clearfix;
-    margin-top: 2%;
-    margin-bottom: 2%;
     margin-left: auto;
     margin-right: auto;
     // padding: 0.4em;
     //padding-left: 20em;
-    //padding-bottom: 0.5em;
+    padding-top: 2%;
+    padding-bottom: 2%;
     max-width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
