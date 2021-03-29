@@ -26,7 +26,7 @@
     // font-family: $sans-serif-narrow;
     font-family: 'Jeju Myeongjo', serif;
     font-weight: bold;
-    font-size: $type-size-2;
+    font-size: $type-size-3;
 
     @include breakpoint($x-large) {
       max-width: $max-width;
