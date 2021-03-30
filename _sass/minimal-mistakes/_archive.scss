@@ -50,9 +50,19 @@
   }
 }
 
+//이걸로 margin과 padding 측정하기 쉽게 보이도록 함
+// border-top: 5px dashed green;
+// border-right: 5px solid blue;
+// border-bottom: 5px dotted red;
+// border-left: 5px double black;
+
 .archive__item-categories {
   margin-top: 0px;
-  margin-bottom: 5px;
+  margin-bottom: 6px;
+  // border-top: 5px dashed green;
+  // border-right: 5px solid blue;
+  // border-bottom: 5px dotted red;
+  // border-left: 5px double black;
   //margin-bottom: 0.9em;
   //font-family: $sans-serif-narrow;
   font-family: 'Noto Serif KR', serif;

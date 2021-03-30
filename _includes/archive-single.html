@@ -21,6 +21,8 @@
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
+        <!-- 이 include.number는 내가 이걸 부르는 곳(여기서는 single.html)에서 값을 전달해서 쓰고 있음.-->
+        {{include.number | append: '. '}} 
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a> <!--이 부분이 실제 포스트에서 써지는 부분-->
       {% endif %}
       {% if post.date %}
