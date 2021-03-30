@@ -2,6 +2,11 @@
    ARCHIVE 내꺼
    ========================================================================== */
 
+// margin: 20px 같은 표현은 상하좌우 모두 20px을 의미합니다
+// margin: 30px 10px은 상하 30px, 좌우 10px을 의미합니다.
+// margin: 30px 10px 20px 50px은 위 30px, 오른쪽 10px, 아래 20px, 왼쪽 50px을 의미합니다.
+// margin: 30px 10px 40px은 위 30px, 좌우 10px, 아래 40px을 의미합니다.
+
 .archive {
   margin-top: 1em;
   margin-bottom: 2em;
@@ -33,8 +38,8 @@
 
 .archive__subtitle {
   //margin: 1.414em 0 0.5em;
-  margin: 0.8em 0 0;
-  padding-bottom: 0.5em;
+  margin: -20px 0 0;
+  //padding-bottom: 0.5em;
   font-size: $type-size-2;//home화면의 Recent Posts의 폰트 크기
   color: $rss-color;
   border-bottom: 1px solid $border-color;
@@ -46,8 +51,8 @@
 }
 
 .archive__item-title {
-  margin-top: -5px;
-  margin-bottom: -5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   //margin-bottom: 0.9em;
   //font-family: $sans-serif-narrow;
   font-family: 'Noto Serif KR', serif;
@@ -139,10 +144,7 @@
     font-size: 0.6em;
   }
 }
-// margin: 20px 같은 표현은 상하좌우 모두 20px을 의미합니다
-// margin: 30px 10px은 상하 30px, 좌우 10px을 의미합니다.
-// margin: 30px 10px 20px 50px은 위 30px, 오른쪽 10px, 아래 20px, 왼쪽 50px을 의미합니다.
-// margin: 30px 10px 40px은 위 30px, 좌우 10px, 아래 40px을 의미합니다.
+
 
 /*
    Grid view
