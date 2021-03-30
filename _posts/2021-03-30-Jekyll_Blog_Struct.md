@@ -1,5 +1,5 @@
 ---
-title:  "Jekyll Blog 구조 간단 설명" 
+title:  "[Github Pages] Jekyll Blog 구조 간단 설명" 
 
 categories:
   - Blog Dev
