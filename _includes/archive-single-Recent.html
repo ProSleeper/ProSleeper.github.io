@@ -10,14 +10,15 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: 'grid' }}__item">
+<div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    <!-- {% if include.type == "grid" and teaser %}
+    {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src="{{ teaser | relative_url }}" alt="">
       </div>
-    {% endif %} -->
-    <h1 class="archive__item-title no_toc" itemprop="headline">
+    {% endif %}
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
       {% else %}
@@ -27,8 +28,8 @@
         <p class="page__meta"><i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ post.date | date: "%Y.%m.%d" }}</p>
         <!-- 바로 위에 코드는 categories에서 post의 제목 옆에 날짜 보여주는 역할이고, 앞에 span으로 해서 줄 안바꿈으로 표현. p로 하면 줄 바꿈 -->
     {% endif %}
-    </h1>
+    </h2>
    <!-- {% include page__meta.html type=include.type %} -->
-   <!-- {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}-->
+   <!-- {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %} -->
   </article>
 </div>
