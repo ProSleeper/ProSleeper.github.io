@@ -45,6 +45,12 @@ $type-size-4-5: 1.12em !default; // Ubuntu Mono is a bit small
   font-weight: normal;
   font-style: normal;
 }
+@font-face{ 
+  font-family:'IropkeBatangM'; 
+  src:url('fonts/IropkeBatangM.eot'); 
+  src:url('fonts/IropkeBatangM.woff') format(‘woff’); 
+}
+
 
 // font-family: 'Jua', sans-serif;
 // font-family: 'Song Myung', serif;
