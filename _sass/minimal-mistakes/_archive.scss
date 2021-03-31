@@ -43,7 +43,7 @@
   font-size: $type-size-2;//home화면의 Recent Posts의 폰트 크기
   color: $rss-color;
   border-bottom: 1px solid $border-color;
-  font-family: 'IropkeBatangM';
+  font-family: 'SDSamliphopangche_Outline';
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
@@ -70,7 +70,7 @@
   line-height: 1.5;
   overflow: hidden;
   text-overflow: ellipsis;
-  font-size: $type-size-1;
+  font-size: $type-size-5;
 
   a[rel="permalink"]::before {
     content: '';
@@ -93,7 +93,7 @@
   margin-bottom: 0px;
   //margin-bottom: 0.9em;
   //font-family: $sans-serif-narrow;
-  font-family: 'Noto Serif KR', serif;
+  font-family: 'IropkeBatangM';
   //padding-bottom: 0.5em;
   line-height: 1.5;
   overflow: hidden;
