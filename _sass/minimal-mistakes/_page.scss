@@ -67,6 +67,7 @@ body {
     }
   }
   font-family: "IropkeBatangM";
+  line-height: 1.8;
 }
 
 .page__title {
@@ -285,7 +286,7 @@ body {
   margin-top: 2em;
   color: $muted-text-color;
   font-family: $sans-serif;
-  font-family: "IropkeBatangM";
+  //font-family: "IropkeBatangM";
   font-size: $type-size-6;
 
   p {
