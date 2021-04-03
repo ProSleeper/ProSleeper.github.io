@@ -14,7 +14,7 @@ last_modified_at: 2021-04-04
 ---
 
 
-[하샤드 수](https://programmers.co.kr/learn/courses/30/lessons/12947).
+출처: [하샤드 수](https://programmers.co.kr/learn/courses/30/lessons/12947).
 
 # 첫번째 풀이
 
