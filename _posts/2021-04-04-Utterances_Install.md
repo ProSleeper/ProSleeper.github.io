@@ -20,8 +20,7 @@ minimal-mistakes에 config.yml의 comments-provider를 보면
 
 # 설치 방법
 ## Utterances설치
-<a href="https://github.com/apps/utterances" target="_blank">건망증이 심한 엔지니어</a>
-(https://github.com/apps/utterances). << 이 링크를 통해서 설치하면 된다.  
+[(https://github.com/apps/utterances)](https://github.com/apps/utterances). << 이 링크를 통해서 설치하면 된다.  
 링크를 누르면 나오는 install을 누르면 아래 화면들이 나온다.
 <span style="color: red;">빨간색 네모로 칠해진 부분만 작성하면 된다.</span>
 
