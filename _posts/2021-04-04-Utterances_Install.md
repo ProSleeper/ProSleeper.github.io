@@ -15,7 +15,7 @@ last_modified_at: 2021-04-04
 
 # 블로그에 댓글 기능을 만들자.
 minimal-mistakes에 config.yml의 comments-provider를 보면  
-"# false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom" " 이렇게 많은 댓글기능 적용 방법이 있다.  
+`# false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"` 이렇게 많은 댓글기능 적용 방법이 있다.  
 대표적으로 disqus가 있는데 구글 검색을 해보니 disqus가 무겁고 광고가 나온다는 얘기가 많아서 대안으로 추천되는 utterances를 적용하기로 했다.  
 
 # 설치 방법
