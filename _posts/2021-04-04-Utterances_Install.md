@@ -31,8 +31,12 @@ minimal-mistakes에 config.yml의 comments-provider를 보면
 Select repositories를 눌러서 댓글이 달리면 issue가 생성될 repository를 고르면 된다. 보통 github계정/xxxComments 이렇게 하기도 하는데 나는 github pages repo에서 모든 걸 처리하고 싶어서 내 페이지인 github.io를 선택했다.  
 
 
+
+
 ![utt-3](https://user-images.githubusercontent.com/25880465/113497403-caed6a80-953e-11eb-9866-328d26781ae1.PNG)  
 조금 내려서 Repository의 repo부분에는 바로 위에서 선택한 repo를 넣어주면 된다. 나의 경우는 Prosleeper/Prosleeper.github.io  
+
+
 
 
 ![utt-4](https://user-images.githubusercontent.com/25880465/113497405-ce80f180-953e-11eb-8a26-98c908043c1c.PNG)  
@@ -40,17 +44,21 @@ Blog Post - Issue Mapping 이라고 있는데 구글 검색하면 나온다. 간
 Theme 는 본인이 하고 싶은 걸로 하면 된다.  
 
 
+
+
 ![utt-5](https://user-images.githubusercontent.com/25880465/113497408-d476d280-953e-11eb-868a-2c13376f0a7a.PNG)  
 이건 원래라면 블로그를 작성하는 post에 넣어야 한다는데 minimal-mistakes는 이걸 안해도 된다고 한다.  
 대신 아래 config.yml을 작성해줘야 함.  
 
 
+
+
 ![utt-6](https://user-images.githubusercontent.com/25880465/113497608-b316e600-9540-11eb-96fb-dd7b1170a690.PNG)  
 <span style="color: red;">빨간색 네모로 칠해진 부분 수정</span>  
-1. repository에는 설치시 repo에 넣어준 것과 동일하게 작성  
-2. provider는 "utterances"  
-3. theme는 선택한 테마  
-4. issue_term은 위에서 Blog Post - Issue Mapping에서 선택한 방법 작성. 나는 pathname(default)  
+※ repository에는 설치시 repo에 넣어준 것과 동일하게 작성  
+※ provider는 "utterances"  
+※ theme는 선택한 테마  
+※ issue_term은 위에서 Blog Post - Issue Mapping에서 선택한 방법 작성. 나는 pathname(default)  
 
 
 제대로 다 설치 했다고 생각했는데 문제가 발생했다.(파란 동그라미 부분)
