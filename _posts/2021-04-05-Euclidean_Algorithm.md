@@ -40,8 +40,6 @@ last_modified_at: 2021-04-05
 
 
 # 정답
-정답  
-
 ```cpp
 #include <string>
 #include <vector>
