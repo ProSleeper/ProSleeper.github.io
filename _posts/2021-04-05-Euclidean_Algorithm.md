@@ -1,5 +1,5 @@
 ---
-title:  "[C++] Programmers 최대공약수와 최소공배수" 
+title:  "[C++] Programmers 최대공약수와 최소공배수 Lv1" 
 
 categories:
   - C++
