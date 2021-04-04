@@ -13,7 +13,7 @@ date: 2021-03-24
 last_modified_at: 2021-03-26
 ---
 
-Programmers  
+출처: Programmers  
 [링크: 나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910){:target="_blank"}  
 
 

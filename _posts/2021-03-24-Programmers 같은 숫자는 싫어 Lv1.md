@@ -13,8 +13,8 @@ date: 2021-03-24
 last_modified_at: 2021-03-24
 ---
 
-Programmers  
-https://programmers.co.kr/learn/courses/30/lessons/12906
+출처: Programmers  
+[같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906){:target="_blank"}
 
 풀이 1  
 <br>

@@ -12,7 +12,7 @@ toc_sticky: true
 date: 2021-03-23
 last_modified_at: 2021-03-23
 ---
-https://boycoding.tistory.com/163 소년코딩님의 자료를 참고했습니다.
+[https://boycoding.tistory.com/163](https://boycoding.tistory.com/163){:target="_blank"} 소년코딩님의 자료를 참고했습니다.
 
 <br>
 
