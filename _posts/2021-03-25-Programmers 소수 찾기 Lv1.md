@@ -14,7 +14,7 @@ last_modified_at: 2021-03-24
 ---
 
 Programmers  
-[소수 찾기]https://programmers.co.kr/learn/courses/30/lessons/12921
+[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/12921)
 
 
 1차 풀이  
