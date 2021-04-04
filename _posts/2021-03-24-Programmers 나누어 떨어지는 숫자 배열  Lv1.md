@@ -14,7 +14,9 @@ last_modified_at: 2021-03-26
 ---
 
 Programmers  
-https://programmers.co.kr/learn/courses/30/lessons/12910
+[링크: 나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910){:target="_blank"}  
+
+
 
 풀이 1  
 ```cpp
