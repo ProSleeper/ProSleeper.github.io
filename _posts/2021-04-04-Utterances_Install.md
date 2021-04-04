@@ -1,5 +1,5 @@
 ---
-title:  "Utterances로 댓글기능 추가" 
+title:  "[Github Pages] Utterances로 댓글기능 추가" 
 
 categories:
   - Blog Dev
