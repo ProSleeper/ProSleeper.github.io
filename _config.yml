@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "ASUD"
   avatar           : "/assets/images/headShot.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A Normal Person."
+  bio              : "A Person."
   location         : "South Korea, Seoul"
   email            :
   links:
