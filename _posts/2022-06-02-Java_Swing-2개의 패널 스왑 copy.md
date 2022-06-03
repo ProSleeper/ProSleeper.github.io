@@ -1,5 +1,5 @@
 ---
-title:  "[Java Swing] 2개의 패널 스왑효과 Lv" 
+title:  "[Java Swing] 2개의 패널 스왑효과" 
 
 categories:
   - Java
