@@ -105,23 +105,23 @@ void scrollPanelCreate(){
 
 구현설명에서 설명했지만 그림으로 보여주면 이해가 빠를 것 같아서 첨부.
 
-![스크롤 나오기 전](https://user-images.githubusercontent.com/25880465/172065829-9ceaeaca-6824-4aeb-aa2e-b1a28d9e3042.png){: width="50%" height="50%"0}{: .left}
+![스크롤 나오기 전](https://user-images.githubusercontent.com/25880465/172065829-9ceaeaca-6824-4aeb-aa2e-b1a28d9e3042.png){: width="70%" height="70%"0}{: .left}
 
 위 사진은 아직 요소의 범위가 패널을 넘어가지 않았기 때문에 필요할때만 나오라는 VERTICAL_SCROLLBAR_AS_NEEDED 조건에 맞게 스크롤바가 보이지 않는다.
 
-![스크롤 나온 후](https://user-images.githubusercontent.com/25880465/172065827-afe590f0-352a-4250-9b70-479637544115.png){: width="50%" height="50%"0}{: .left}
+![스크롤 나온 후](https://user-images.githubusercontent.com/25880465/172065827-afe590f0-352a-4250-9b70-479637544115.png){: width="70%" height="70%"0}{: .left}
 
 위 사진은 요소가 패널을 넘어서서 스크롤이 나온 것이다.
 
 
 # 간단한 Layout 설명
 
-![boxlayout 2개 추가](https://user-images.githubusercontent.com/25880465/172065841-e3e8c71b-cf62-41b5-ad77-3fe422f30b34.png){: width="50%" height="50%"0}{: .left}
+![boxlayout 2개 추가](https://user-images.githubusercontent.com/25880465/172065841-e3e8c71b-cf62-41b5-ad77-3fe422f30b34.png){: width="70%" height="70%"0}{: .left}
 
 boxlayout을 사용하고 요소 2개를 추가 한 상황이다. 패널 전체를 2개의 요소가 차지하고 있다. 물론 일정 갯수가 넘어가면 더 이상은 크기가 줄어들지 않고 일정 크기로 스크롤이 가능하지만 너무 이상해서 일단은 사용보류 했다.
 아마 크기를 고정하는 메서드가 있을텐데 찾지 못해서 flowlayout을 사용 중이다.
 
-![flowlayout 2개 추가](https://user-images.githubusercontent.com/25880465/172065843-0c819d4c-b13e-481e-9c10-62653c8e896d.png){: width="50%" height="50%"0}{: .left}
+![flowlayout 2개 추가](https://user-images.githubusercontent.com/25880465/172065843-0c819d4c-b13e-481e-9c10-62653c8e896d.png){: width="70%" height="70%"0}{: .left}
 
 위와 동일하게 요소 2개를 추가 했을 때 flowlayout이다. boxlayout을 Y축으로 주었을 때 내가 얻고자 하는 모양이 이런건데 잘 안된다. 물론 현재 코드의 문제점은 가로가 넓어지면 flowlayout은 가로부터 채우기 때문에
 옆으로 요소가 배치된다. 다만 난 resize를 막아놓고 현재 크기로만 만들 것이기 때문에 이러한 사용이 가능했다.
