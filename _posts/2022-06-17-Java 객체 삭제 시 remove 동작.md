@@ -57,17 +57,31 @@ public void deleteName() {
 - 1번이 실행되고 실제로 참조가 모두 사라져서 쓰레기 값이 되는 순간은 while문을 모두 돌고 빠져나오는 순간이다. 물론 그 전에 오류가 난다.
 
 
+
+
 ![설명1](https://user-images.githubusercontent.com/25880465/174220519-7afe06f9-5af3-481a-8c82-ce18deb6de05.png)
 - 기본 상태
+
+
+
 
 ![설명2](https://user-images.githubusercontent.com/25880465/174221179-1a228fb9-a630-4359-9274-314631a62de8.png)
 - 1번 실행
 
+
+
+
 ![설명3](https://user-images.githubusercontent.com/25880465/174221181-a9929f20-1728-4ebc-9c43-48162f30bbe5.png)
 - 3번 실행
 
+
+
+
 ![설명4](https://user-images.githubusercontent.com/25880465/174221183-ecfb84ce-8cd5-4a15-bb35-21951884bf8c.png)
 - 4번 실행
+
+
+
 
 - 4번까지 실행되면 더 이상 참조가 없기 때문에 가비지 컬렉터가 수집 후 자동으로 해제해준다.
 
