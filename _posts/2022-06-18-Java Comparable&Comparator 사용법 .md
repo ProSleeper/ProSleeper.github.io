@@ -1,5 +1,5 @@
 ---
-title:  "[Java] java.lang.Comparable / java.util.Comparator 사용법" 
+title:  "[Java] Comparable&Comparator 사용법 " 
 
 categories:
   - Java
