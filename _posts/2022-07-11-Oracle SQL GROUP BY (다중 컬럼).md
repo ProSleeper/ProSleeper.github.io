@@ -47,15 +47,15 @@ last_modified_at: 2022-07-11
 - GROUP BY 뒤에 하나의 열만 작성.
 - JOB 열을 기준으로 중복되는 값을들 모두 묶어서 출력해준다.
 - 사실 여기까지는 크게 이해가 안되는 부분은 없었다.
-- SELECT JOB FROM EMP GROUP BY JOB;
 <br>
 <br>
 
 - 그림2
+- SELECT JOB FROM EMP GROUP BY JOB;
+
 ![COL1](https://user-images.githubusercontent.com/25880465/178185930-1fce3835-a3ab-4faa-80b8-87f76c36aea6.png){: width="70%" height="70%"0}{: .left}
 <br>
 <br>
-
 
 ### GROUP BY (COLUMN1, COLUMN2)
 - GROUP BY 뒤에 두개의 열 작성.
@@ -63,10 +63,10 @@ last_modified_at: 2022-07-11
 - 분명히 GROUP BY는 중복되는 값들을 묶어준다고 생각해서 사용하는 것인데
 - 열을 나열하면 할 수록 점점 출력되는 행이 커져갔다.
 - 그래서 GROUP BY 를 사용해서 SQL문제를 풀거나 할때마다 이해를 해서 푼다기보다는 실행결과를 보고 때려 맞추는 식으로 하게 됐었다.
-- SELECT JOB, DEPTNO FROM EMP GROUP BY JOB, DEPTNO;
 <br>
 <br>
 - 그림3
+- SELECT JOB, DEPTNO FROM EMP GROUP BY JOB, DEPTNO;
 
 ![COL2](https://user-images.githubusercontent.com/25880465/178185932-93a3afe7-a4f8-4259-8728-b94f6c9b5724.png){: width="70%" height="70%"0}{: .left}
 
@@ -77,20 +77,20 @@ last_modified_at: 2022-07-11
 - GROUP BY 뒤에 세개의 열 작성.
 - 3개 이상 되는 열을 나열했을 때부터는 이해라는 것은 없었고 어떻게든 결과가 나오길 바라면서 이거저거 수정하면서 문제를 풀게 됐었다.
 - 결국 이 GROUP BY 로는 더 진행을 못하겠다고 생각해서 이해부터 하자고 결론 내렸다.
-- SELECT JOB, DEPTNO, SAL FROM EMP GROUP BY JOB, DEPTNO, SAL;
 <br>
 <br>
-- 3개의 열
 
 - 그림4
+- SELECT JOB, DEPTNO, SAL FROM EMP GROUP BY JOB, DEPTNO, SAL;
+
 ![COL333](https://user-images.githubusercontent.com/25880465/178187097-8f9bf1e0-68b6-4d3d-b6e0-918024bb303a.png){: width="70%" height="70%"0}{: .left}
 <br>
 <br>
 
 ### GROUP BY (COLUMN1, COLUMN2, COLUMN3, COLUMN4)
-- 4개의 열
 - 그림5
 - SELECT JOB, DEPTNO, SAL, ENAME FROM EMP GROUP BY JOB, DEPTNO, SAL, ENAME;
+
 ![COL4](https://user-images.githubusercontent.com/25880465/178185934-bb0b9b2f-9b3d-423f-81fc-db9e4852b5e6.png){: width="70%" height="70%"0}{: .left}
 
 <br>
@@ -106,14 +106,12 @@ last_modified_at: 2022-07-11
 - 왜 그렇게 되는 지는 1번에서 2번으로 이어지는 선으로 표현해놓았다. 그리고 마지막으로 3번이 표현 되게 된다.
 ![그림설명](https://user-images.githubusercontent.com/25880465/178223196-59d7b67e-7b49-410a-b3ec-6926259c8fbf.png){: width="70%" height="70%"0}{: .left}
 
-
 <br>
 <br>
 
 ### 마무리
 - 이렇듯 GROUP BY 는 하나의 열을 기준으로 하기에는 좋지만 여러개의 열을 기준으로 할 수록 GROUP BY 효과는 낮아지기 때문에 조금은 신중하게 사용할 필요가 있다.
 - 특히 머리속으로는 잘 모아질 것 같았던 열들이 GROUP BY를 계속 쓰다보면 SELECT * FROM EMP; 와 별반 다르지 않게 되기 때문에 더 조심히 쓰자.
-
 
 <br>
 
