@@ -1,0 +1,52 @@
+---
+title:  "[언어] 문제명 Lv" 
+
+categories:
+  - Java
+tags:
+  - [Java, Algorithm]
+
+toc: true
+toc_sticky: true
+
+date: 2022-05-22
+last_modified_at: 2022-05-22
+---
+
+
+# 문제명
+
+문제 프로그래머스 FAQ 내용을 보니 카카오나 기업의 문제들은 저작권이 있으니 풀이를<br>
+github나 개인블로그에 올리지 말라고 되어 있어서 링크로 대체합니다.
+
+출처: Programmers <br>
+[문제명](주소){:target="_blank"}  
+
+
+
+
+## 문제의 이해
+
+
+
+
+
+### 내가 생각한 풀이 방법
+
+
+## 풀이
+### 첫 번째 풀이
+
+
+```언어
+
+```
+
+
+
+
+<br>
+
+
+
+<!-- [맨 위](#){: .btn .btn--primary }{: .align-right} 스크롤시 자동으로 up to 화살표가 나오므로 삭제 -->
