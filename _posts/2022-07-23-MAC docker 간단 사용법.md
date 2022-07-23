@@ -27,6 +27,13 @@ last_modified_at: 2022-07-23
  - 이렇게 하면 새로 컨테이너가 생성되고 데이터도 그대로 들고 온다.
  - 다만 이 방법은 오라클 포트를 변경한 것은 아니고 외부와 오라클 연결시 8081을 사용하고 그걸 오라클은 8080으로 사용해라, 라고 바인딩 시켜준거다.
 
+# 터미널에서 도커로 오라클 접속방법(sqlplus)
+ - docker exec -it 컨테이너이름 sqlplus
+
+
+
+
+
 #### docker ps
 <img width="966" alt="1" src="https://user-images.githubusercontent.com/25880465/180595535-441cefb7-d0c1-49cc-a300-8477534bfd1f.png">
 
