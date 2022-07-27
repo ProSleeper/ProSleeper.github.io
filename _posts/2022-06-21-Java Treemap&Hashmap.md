@@ -25,7 +25,7 @@ last_modified_at: 2022-06-21
 ## TreeMap
 ### 특징
 1. 구조가 이진 트리 구조로 되어있기 때문에 key 정렬이 가능하다.
-2. Map의 특성인 key가 중복이 안된다.
+2. key 중복이 불가능하다.
 3. 이진 트리 구조라서 기본적으로 검색이나 추가, 삭제가 빠르다. 시간복잡도는 O(logN).
 ![Red-black_tree_example svg](https://user-images.githubusercontent.com/25880465/174699793-3200bc27-5031-4cec-b8fe-c694533458be.png)
 
