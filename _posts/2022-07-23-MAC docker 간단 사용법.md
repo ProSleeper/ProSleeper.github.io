@@ -1,5 +1,5 @@
 ---
-title:  "[docker] docker oracle 사용중인 컨테이너 포트변경법" 
+title:  "[docker] docker->oracle: 사용중인 컨테이너 포트변경법" 
 
 categories:
   - docker
@@ -14,7 +14,7 @@ last_modified_at: 2022-07-23
 ---
 
 
-# 두괄식 해결법
+# 해결법
 ## Mac에서 오라클과 톰캣 port 충돌시 해결법(오라클에 넣은 table 데이터가 필요하거나, 이미 컨테이너를 생성했을 시)
 1. 만약 오라클에 데이터가 없거나 컨테이너를 새로 생성해도 된다면 그냥 생성할때 port번호를 바꿔서 생성하면 된다.
 2. 더 간단한 해결법은 톰캣 port를 바꾸면 된다. (이게 제일 쉽긴하다.) [방법](https://fjdkslvn.tistory.com/92){:target="_blank"}  
@@ -34,7 +34,7 @@ last_modified_at: 2022-07-23
 
 
 
-#### docker ps
+#### docker ps(테스트 해보느라 NAMES가 아래와 다른데 적힌대로 쓰면 된다.)
 <img width="966" alt="1" src="https://user-images.githubusercontent.com/25880465/180595535-441cefb7-d0c1-49cc-a300-8477534bfd1f.png">
 
 #### docker commit my_oracle img_oracle
@@ -45,6 +45,7 @@ last_modified_at: 2022-07-23
 
 
 # 내가 겪은 상황
+##
 
 # docker
  - docker라고 좋은 게 나왔다고 예전에 들었던 것 같다.
@@ -53,7 +54,7 @@ last_modified_at: 2022-07-23
 # Mac에서 오라클을 사용해야했다.
  - 국비 웹개발자 강의를 들으면서 오라클을 배웠다.
  - 학원에도 데스크탑이 있고 집에도 있어서 사실 꼭 Mac에 오라클을 깔지는 않아도 됐다.
- - 다만 시도했으면, 불가능하지 않으면 성공시키고 싶다는 마음이 크기에...
+ - 다만 시도했으면, 불가능하지 않으면, 성공시키고 싶다는 마음이 크기에..
 
 # Mac에 오라클 설치
  - 구글에 "mac에 오라클 설치" 검색하면 oracle은 window, linux만 지원해서 docker를 사용하라고 한다.
@@ -82,7 +83,7 @@ last_modified_at: 2022-07-23
  - 도커와 프로그램(오라클) 사이에 port2가 있었다.
 
 ## 해결하자~
- - 난 port2만 바꿔놓고 계속 오류가 난다고 징징거렸던 것이다..
+ - 난 port2만 바꿔놓고 계속 오류가 난다고 징징거렸던 것이다.
  - 그래서 열심히 검색해서 port1을 바꾸는 법을 검색했다.
  - 아직 우리나라는 docker를 많이 사용안해서 그런지 검색결과가 많지는 않았다.
  - 처음에는 방법을 찾지 못해서 톰캣번호를 만들거나 새로 컨테이너를 생성해서 하는 방법등을 사용했다.
