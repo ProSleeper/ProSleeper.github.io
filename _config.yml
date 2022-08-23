@@ -119,7 +119,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
     - label: "Wordle"
-      icon: "fab fa-fw fa-instagram"
+      icon: "fa-solid fa-gamepad-modern"
       url: "/projectwordle"
 
 # Site Footer
