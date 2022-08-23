@@ -117,7 +117,7 @@ author:
       url: "https://github.com/ProSleeper"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      # url: "https://instagram.com/"
     - label: "Wordle"
       icon: "fa-solid fa-gamepad-modern"
       url: "/projectwordle"
