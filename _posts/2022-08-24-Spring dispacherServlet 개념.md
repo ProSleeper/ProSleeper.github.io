@@ -1,5 +1,5 @@
 ---
-title:  "[Java] 2022-08-24-Spring dispacherServlet 개념" 
+title:  "[Java] Spring dispacherServlet 개념" 
 
 categories:
   - Java
