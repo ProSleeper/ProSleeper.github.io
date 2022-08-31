@@ -1,25 +1,33 @@
 ---
-title:  "[Java] 내가 이해한 의존성 주입과, 제어의 역전" 
+title:  "[Java] JAVA 8에서 추가 된 기능" 
 
 categories:
   - Java
 tags:
-  - [Java, Spring]
+  - [Java]
 
 toc: true
 toc_sticky: true
 
-date: 2022-08-25
-last_modified_at: 2022-08-25
+date: 2022-08-31
+last_modified_at: 2022-08-31
 ---
 
 
-# Spring에서의 중요한 개념.
- - 구글이나 학원, 인강에서 Spring을 처음 배울 때 꼭 나오는 몇가지가 있는게 바로 의존성 주입(DI)과 제어의 역전(IoC)이다.
- - 처음에는 당연히 이게 무슨 헛소리인가 싶었다.. 의존? 뭐? 제어는 뭐하러 역전하지? 이랬다.
- - 그래도 이게 중요한 개념이니까 처음부터 열심히 열심히 설명하는 것이겠지 하면서 이해하려고 노력했다.
- - method 사용법이나 어떤 방법은 외우는 게 더 좋을 수도 있겠지만 DI와 IoC는 외울 필요는 당연히 없고 이해하는 게 중요하다고 생각했다.
- - 왜냐면 Spring을 검색하면 제일 먼저 나오는 것들은 보통 이 Spring이라는 기술이 왜 나왔는지를 설명해주기 때문이다.
+# java 8 에 추가된 새로운 것들
+<ul>
+<li>
+Lambda 표현식
+</li>
+</ul>
+
+Functional 인터페이스
+Steam
+Optional
+인터페이스의 Default method
+날짜 관련 클래스들 추가
+병렬 배열 정렬
+StringJoiner
 
 
 # 의존성 주입(DI)
