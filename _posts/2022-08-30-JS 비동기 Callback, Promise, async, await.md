@@ -196,6 +196,33 @@ fetchAuthorName(1).then((name) => console.log("name:", name));
  - 저 블로그를 계속 보는데도 만약 이해가 끝까지 가지 않는다면...... 아마도 그럴 일은 없을 거라고 생각한다.
  - 정말 설명을 너무 잘해놓았다.
  - 이제 비동기 작업 방식으로 애니메이션을 좀 잘 구현해볼 수 있을 것 같다.
+# 마지막 설명할 부분
+- await가 동기적인 순서 처리를 보장하는 것은 asnyc 함수 내부에서 await를 쓴 그 부분만 보장한다.
+- 아래와 같이 async await를 쓴 함수인 testfunc를 실행하고 그 아래에 console.log()를 해도 이때는 console.log가 먼저 찍히게 된다.
+
+
+
+```js
+
+function goWork(todo) {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      console.log(todo);
+      resolve();
+    }, 0);
+  });
+}
+
+async function testfunc() {
+  await goWork('일어난다.');
+  console.log("진짜 일어났나?")
+}
+
+testfunc();
+console.log("아마도 일어나기 전?")
+
+
+```
 
 <br>
 
