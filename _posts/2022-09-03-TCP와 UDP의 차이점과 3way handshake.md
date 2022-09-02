@@ -1,12 +1,12 @@
 ---
-title:  "[Java] TCP와 UDP의 차이점" 
+title:  "[CS] TCP와 UDP의 차이점과 3way handshake" 
 
 
 
 categories:
-  - Java
+  - CS
 tags:
-  - [Java, Spring]
+  - [CS]
 
 toc: true
 toc_sticky: true
@@ -35,7 +35,7 @@ last_modified_at: 2022-09-03
 
 # TCP는 어떻게 안정적인 통신을 보장하는가?
 - 2way 4way 등 여러가지 방법이 있지만 TCP는 3way handshake라는 기법을 사용한다.
-- 뭔가 되게 어려울 것도 같지만 개념적으로 이해하기는 쉽다.
+- 뭔가 되게 어려울 것도 같지만 개념적으로 이해하기는 쉽다.(SYN나 ACK 등 여러 용어가 필요하지만 개념적으로만 설명해보자.)
 - 클라이언(A), 서버(B)가 있을 때 A는 B에게 신호를 보내고 B는 신호를 받으면 다시 A에게 보내고 A는 B에게 신호를 받으면 다시 B에게 보낸다.
 - *1. A->B *2. B->A *3. A->B 이렇게 3번을 왔다 갔다 신호를 주고 받아서 3way handshake 이다.
 - 이때 비로소 양쪽 모두 데이터를 전송할 준비가 됐다고 보장할 수 있는 것이다. 
