@@ -121,6 +121,9 @@ author:
     - label: "Wordle"
       icon: "fa-solid fa-gamepad"
       url: "/projectwordle"
+    - label: "project"
+      icon: "fa-solid fa-gamepad"
+      url: "/project_how_about_today/"
 
 # Site Footer
 footer:
