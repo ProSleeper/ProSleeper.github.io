@@ -1,5 +1,5 @@
 ---
-title:  "[Java] TCP와 UDP의 차이점" 
+title:  "[OOP] SOLID원칙 S와 컴포넌트 개념 " 
 
 
 
