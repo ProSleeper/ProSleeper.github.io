@@ -147,7 +147,7 @@ last_modified_at: 2022-08-24
 
 ```
 - dispatcher-servlet.xml 파일
-- 여러 코드가 있지만 결국에 중요한 것은 위에서 설명한 dispatcherServlet의 동작 과정 중에서 중요한 2번과 4번이 주석1 주석2 이다.
+- 여러 코드가 있지만 결국에 중요한 것은 위에서 설명한 dispatcherServlet의 동작 과정 중 2번과 4번이 위 코드에서 주석1 주석2 이다.
 - 주석 1번이 컨트롤러를 매핑시킨 handler이고 주석2번이 controller의 처리 결과로 나온 데이터를 보여줄 view에 매핑 시켜주는 handler이다.
 
 # 마무리
