@@ -1,5 +1,5 @@
 ---
-title:  "[Spring] thymeleaf가 있어야 templates에서 html을 읽을 수 있다." 
+title:  "[Spring] thymeleaf가 있어야 templates에서 html을 읽을 수 있다" 
 
 
 
