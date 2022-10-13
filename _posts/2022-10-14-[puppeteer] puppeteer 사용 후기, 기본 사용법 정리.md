@@ -1,5 +1,5 @@
 ---
-title:  "[JS] puppeteer 사용 후기, 기본 사용법 정리" 
+title:[puppeteer] puppeteer 사용 후기, 기본 사용법 정리" 
 
 
 
